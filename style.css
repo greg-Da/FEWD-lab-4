@@ -1,0 +1,78 @@
+@font-face {
+    font-family: DK;
+    src: url("assets/DK\ Northumbria.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Winstonia;
+    src: url("assets/Winstonia.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: Blue-Eyes;
+    src: url("assets/Blue\ Eyes.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Scary-pumpkin;
+    src: url("assets/Scary\ Pumpkin.ttf") format("truetype");
+}
+
+body, html{
+    padding: 0;
+    margin: 0;
+}
+
+div{
+    text-align: center;
+}
+
+
+header{
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+#divHello{
+    background-color: silver;
+    margin-top: 0px;
+    font-family: Georgia;
+    color: seagreen;
+    font-size: 3em;
+}
+
+#div1{
+    background-color: salmon;
+    font-family: DK;
+    font-size: 5em;
+}
+
+#div2{
+    background-color: cyan;
+    font-family: Winstonia;
+    font-size: 2em;
+    color: dimgray;
+}
+
+#div3{
+    background-color: dimgray;
+    font-family: Blue-Eyes;
+    font-size: 4em;
+    color: white;
+}
+
+#div4{
+    background-color: crimson;
+    font-family: Scary-pumpkin;
+    font-size: 4em;
+    color: gold;
+}
+
+#div5{
+    background-color: rosybrown;
+    font-family: 'Times New Roman';
+    font-size: 4em;
+    color: gray;
+}
